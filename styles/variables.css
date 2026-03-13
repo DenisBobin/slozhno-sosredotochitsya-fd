@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root{
+:root {
   /*шрифт/fonts*/
    --font-global-family: "IBM Plex Mono";
    --background-image: url(../images/cover-image.png);

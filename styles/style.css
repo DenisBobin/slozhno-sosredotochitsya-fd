@@ -8,7 +8,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: var(--background-image);
 }
 
 .header {
@@ -76,7 +75,7 @@
   box-shadow: 0 1px 0 0 var(--accent-color);
 }
 
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
   outline: 1px solid  var(--accent-color);
 }
 
@@ -102,7 +101,7 @@
   font-weight: bold;
 }
 
-.title__decor { 
+.title__decor {
   background-color: var(--accent-color);
 }
 
@@ -136,7 +135,7 @@
 /*-------------main content*/
 
 .main {
-  display: grid;;
+  display: grid;
   gap: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -373,6 +372,6 @@
 
   .footer__title {
     font-size: var(--font-size-desktop);
-  } 
+  }
 }
 
