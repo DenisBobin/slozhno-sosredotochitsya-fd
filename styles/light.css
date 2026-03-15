@@ -24,3 +24,27 @@
 
    --display-dicorate: none;
   }
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /*шрифт/fonts*/
+   --background-image: url(../images/cover-image-light.png);
+  
+   /*цвета/colors*/
+   --accent-color: #FF8DCB;
+   --accent-color-title: #FFC2E6;
+  
+   --text-color-main: #353430;
+   --text-accent: #FF8DCB;
+
+   --text-color-on-accent: #353430;
+   --background-color: #FFF1F7;
+
+   --menu-button-color:#353430;
+   --menu-button-outline:#353430;
+
+   --display-dicorate: none;
+  }
+
+}
