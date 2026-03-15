@@ -1,7 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 .page {
-padding: 0 var(--page-padding-mobile);
+  margin: 0 auto;
+  padding: 0 var(--page-padding-mobile);
   color: var(--text-accent);
   background-color: var(--background-color);
   background-image: var(--background-image);
