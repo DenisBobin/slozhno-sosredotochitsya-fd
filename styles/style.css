@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 .page {
-padding: 0 /*var(--page-padding-mobile)*/;
+padding: 0 var(--page-padding-mobile);
   color: var(--text-accent);
   background-color: var(--background-color);
   background-image: var(--background-image);
@@ -16,7 +16,7 @@ padding: 0 /*var(--page-padding-mobile)*/;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   align-items: start;
-  min-block-size: calc(668px - 2 * var(--page-padding-mobile));
+  min-block-size: 668px /*calc(668px - 2 * var(--page-padding-mobile))*/;
 block-size: 100vh/*calc(100vh - 2 * var(--page-padding-mobile))*/;
 }
 
@@ -267,8 +267,8 @@ block-size: 100vh/*calc(100vh - 2 * var(--page-padding-mobile))*/;
   }
 
   .header {
-    min-block-size: calc(768px - 2 * var(--page-padding-desktop));
-    block-size: calc(100vh - 2 * var(--page-padding-desktop));
+min-block-size: 768px /*calc(768px - 2 * var(--page-padding-desktop))*/;
+block-size: 100vh /*calc(100vh - 2 * var(--page-padding-desktop))*/;
   }
 
   .header__title {
@@ -291,8 +291,8 @@ block-size: 100vh/*calc(100vh - 2 * var(--page-padding-mobile))*/;
   }
 
   .section__gallery {
-  display: grid;
-  gap: 20px;
+    display: grid;
+    gap: 20px;
   }
 
   .cards {
@@ -302,11 +302,11 @@ block-size: 100vh/*calc(100vh - 2 * var(--page-padding-mobile))*/;
   }
 
   .card__text {
-  color: var(--text-color-main);
-  font-family: inherit;
-  font-weight: normal;
-  line-height: 23.4px;
-  word-spacing: 0%;
+    color: var(--text-color-main);
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 23.4px;
+    word-spacing: 0%;
   }
 
   .gallery {
