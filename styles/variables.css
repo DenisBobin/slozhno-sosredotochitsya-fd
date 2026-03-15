@@ -28,4 +28,8 @@
   /*отступы/spacing*/
    --page-padding-mobile: 10px;
    --page-padding-desktop: 20px;
+
+   --menu-button-color:#FF0070;
+
+   --display-dicorate: flex;
 }

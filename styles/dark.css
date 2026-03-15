@@ -17,4 +17,9 @@
 
    --text-color-on-accent: #000028;
    --background-color: #000028;
+
+   --menu-button-color:#FF0070;
+   --menu-button-outline:#FF0070;
+
+   --display-dicorate: flex;
   }

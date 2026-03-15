@@ -17,5 +17,10 @@
    --text-accent: #FF8DCB;
 
    --text-color-on-accent: #353430;
-   --background-color: #Fff;
+   --background-color: #FFF1F7;
+
+   --menu-button-color:#353430;
+   --menu-button-outline:#353430;
+
+   --display-dicorate: none;
   }
