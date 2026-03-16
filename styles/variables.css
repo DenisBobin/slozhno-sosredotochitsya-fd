@@ -23,6 +23,7 @@
 
   /*эффект/effects*/
    --accent-shadow: 4px 4px 0 var(--accent-color);
+   --accent-shadow-footer: 2px 2px 0 var(--accent-color);
    --link-shadow: 2px 2px 0 var(--accent-color);
 
   /*отступы/spacing*/
